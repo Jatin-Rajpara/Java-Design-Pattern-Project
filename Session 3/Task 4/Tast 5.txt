@@ -1,0 +1,7 @@
+`session.invalidate()` immediately destroys the server-side session when the user logs out.
+JWT-based token expiry keeps the token valid until its expiry time, 
+even if the user logs out, unless the token is revoked separately.
+In web apps like Myntra or Flipkart, sessions can be used for server-side session management,
+ while JWT is used for token-based authentication.
+The main difference is that `session.invalidate()` can log out the user immediately, 
+while JWT normally becomes invalid only after it expires.
