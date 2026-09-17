@@ -1,4 +1,0 @@
-In MVC + DAO, the Controller handles the request, the Model stores the data, 
-the View displays the data, and DAO handles database operations.
-Spring MVC also follows the same separation of work. 
-This makes the application easier to manage and maintain.
